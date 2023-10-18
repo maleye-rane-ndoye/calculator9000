@@ -1,7 +1,7 @@
-export default function BeautifulScreen(){
+export default function BeautifulScreen(props){
     return(
         <div className="BeautifulScreen">
-            this is the space of the screen
+            <p>{props.operationValue}</p>
         </div>
     )
 }
