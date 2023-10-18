@@ -1,12 +1,10 @@
-export default function OperatorButton(){
+export default function OperatorButton(props){
     return(
-
         <div className="OperatorButton">
-                <button className="btn-OperatorButton">+</button>
-                <button className="btn-OperatorButton">-</button>
-                <button className="btn-OperatorButton">*</button>
-                <button className="btn-OperatorButton">/</button>
+            <button className="btn-operator" onClick={() => props.onClick("+")}>+</button>
+            <button className="btn-operator" onClick={() => props.onClick("-")}>-</button>
+            <button className="btn-operator" onClick={() => props.onClick("*")}>*</button>
+            <button className="btn-operator" onClick={() => props.onClick("/")}>/</button>
         </div>
-        
     )
 }

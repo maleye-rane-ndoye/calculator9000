@@ -14,10 +14,11 @@ export default function Calculator(){
             <BeautifulScreen operationValue ={operationValue}/>
             <NumberButton
                 onClick ={(numberValue) => (setOperationValue(operationValue + numberValue))}
-                onClearClick = {() => (setOperationValue(''))}
+                onClearClick = {() => setOperationValue('')}
+                onDeleteClick = {() => setOperationValue(operationValue.substring(0, operationValue.length -1))}
             />
-            <OperatorButton/>
-            <EqualButton/>
+            <OperatorButton onClick ={(operatorValue) => (setOperationValue(operationValue + operatorValue))}/>
+            <EqualButton onClick ={(equalValue) => (setOperationValue(operationValue + equalValue))}/>
         
         </>
 
