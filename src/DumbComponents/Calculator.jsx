@@ -19,7 +19,7 @@ export default function Calculator(){
             />
             <OperatorButton onClick ={(operatorValue) => (setOperationValue(operationValue + operatorValue))}/>
             <EqualButton onClick ={(equalValue) => (setOperationValue(operationValue + equalValue))}/>
-        
+            
         </>
 
 

@@ -1,3 +1,4 @@
+import ItSOverNineThousand from "../SmartComponents/ItSOverNineThousand"
 import { useState,useEffect } from "react"
 export default function BeautifulScreen(props){
 
@@ -26,7 +27,8 @@ export default function BeautifulScreen(props){
         <div className="BeautifulScreen">
             <p className="screen-operation">{props.operationValue}</p>
             <p className="screen-result">
-            {hasError ? 'Error' : resultValue}
+            {hasError ? 'Error' : (resultValue < 9000 ? resultValue:"")}
+            <ItSOverNineThousand resultValue ={resultValue}/>
             </p>
         </div>
     )
