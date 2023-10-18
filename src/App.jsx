@@ -1,13 +1,12 @@
 import './App.css'
+import Calculator from './DumbComponents/Calculator'
 
 function App() {
   
 
   return (
     <>
-      <div>
-        this is the replace
-      </div>
+      <Calculator/>
     </>
   )
 }
