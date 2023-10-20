@@ -12,6 +12,7 @@ export default function BeautifulScreen(props){
                 let result = eval(props.operationValue.replace('=', ''));
                 setResultValue(result);
                 setHasError(false);
+                props.onResult(result);
         } catch(error) {
             setHasError(true);
             
