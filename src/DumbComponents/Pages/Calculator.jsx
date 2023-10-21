@@ -12,7 +12,7 @@ export default function Calculator(){
     
 
     return(
-        <div className="calculator">
+        <div className="Calculator">
             <> 
                 
                 <Title operationValue={operationValue} resultValue={resultValue} />

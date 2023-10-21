@@ -1,5 +1,14 @@
 .BeautifulScreen{
-    background-color: black;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    width: 95%;
+    background-color: rgba(58, 53, 53, 0.877);
     height: 3rem;
     color: white;
+}
+
+.screen-operation{
+    color: yellow;
 }

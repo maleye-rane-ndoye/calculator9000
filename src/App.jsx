@@ -1,9 +1,9 @@
 import { Routes,Route } from 'react-router-dom'
 import './App.css'
-import Calculator from './DumbComponents/Calculator'
+import Calculator from './DumbComponents/Pages/Calculator'
 import Menu from './DumbComponents/Menu'
-import AllCalculs from './DumbComponents/AllCalculs'
-import React from './DumbComponents/React'
+import AllCalculs from './DumbComponents/Pages/AllCalculs'
+import React from './DumbComponents/Pages/React'
 
 function App() {
   

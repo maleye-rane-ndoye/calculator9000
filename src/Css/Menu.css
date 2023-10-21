@@ -1,0 +1,32 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+.Menu{
+    margin: 2rem auto;
+    height: 3.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(128, 128, 128, 0.37);
+
+
+}
+.Menu-btn{
+    margin: auto;
+}
+
+.Menu-btn a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition-property: color;
+    transition-duration: 0.1s;
+    transition-delay: 0.5s;
+    
+    
+}
+
+.Menu-btn a:hover{
+    color: rgba(18, 149, 209, 0.801);
+}

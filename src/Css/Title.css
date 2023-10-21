@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+.Title{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Title p {
+    color: rgb(68, 42, 10);
+    font-size: 1rem;
+}
+
+.Title button{
+   border: none;
+   background-color: transparent;
+   color: rgba(18, 149, 209, 0.801);
+   font-size: 1.1rem;
+   transition-property: color;
+   transition-duration: 0.1s;
+   transition-delay: 0.5s;
+}
+
+.Title button:hover{
+    color: black;
+
+
+}

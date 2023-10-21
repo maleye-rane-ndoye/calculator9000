@@ -7,7 +7,7 @@ export default function Title(props){
 
     useEffect(() => {
 
-        if(newResultValue === null) return;
+        if(newOperationValue === null) return;
 
         const saveInDatabase = async () => {
 
