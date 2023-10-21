@@ -1,0 +1,33 @@
+.NumberButton{
+    margin: auto;
+    width: 95%;
+    border-top: none;
+    margin-top: 0.5rem;
+    
+    
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    grid-auto-rows: minmax(0, auto);
+}
+
+.btn-Number,.btn-clear,.btn-delete{
+    margin: auto;
+    width: 95%;
+    height: 4rem;
+    border: 1px solid aqua;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    opacity: 0.9;
+}
+
+.btn-Number:hover,.btn-clear:hover,.btn-delete:hover{
+    opacity: 1;
+}
+.btn-clear{
+    background-color: rgb(223, 95, 95);
+}
+
+.btn-delete{
+    background-color: orange;
+}
