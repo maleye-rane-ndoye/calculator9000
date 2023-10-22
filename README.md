@@ -1,13 +1,48 @@
-Nom de votre Projet
-Une brève description de votre projet et de son objectif.
+# Calculator 
+Calculator est un projet d'apprentissage de La bibliothèque React-js pour les interfaces utilisateur web et natives
 
-Table des matières
-Installation
-Utilisation
-Contribuer
-Licence
-Installation
-Expliquez comment installer votre projet. Cela pourrait inclure des dépendances, des étapes d'installation spécifiques, etc.
+# Table des matières
+- Installation
+- Utilisation
+- Contribuer
+- Licence
+
+# Installation
+- MISE EN PLACE D’UN PROJET REACT AVEC VITE
+  j'ai commencer à installer Node et Npm : Node v18.16.0. et VITE v4.3.9 
+
+  Pour créer un projet React avec vite j'ai exécuter la commande suivante:
+
+  ![](public/projet-init-vite.jpg)
+
+Ensuite j'ai choisie un nom pour mon projet avec project name....
+
+  ![](public/react-vite-04.jpg)
+
+
+Et enfin Javascript + SWC comme variant du projet
+
+  ![](public/react-vite-05.jpg)
+
+puis j'ai suivi les instructions pour finaliser l'intallation et le lancement du projet
+
+
+  ![](public/react-vite-06.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 css
 Copy code
