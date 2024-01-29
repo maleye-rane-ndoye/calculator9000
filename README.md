@@ -40,11 +40,6 @@ Tadaaam ! L’application ReactJs sous Vite est maintenant créée :
 
 
 
-
-
-
-
-
 # css
   ![](public/App.css.png)
 
